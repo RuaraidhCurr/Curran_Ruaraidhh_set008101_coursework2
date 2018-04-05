@@ -1,0 +1,233 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #666;
+  background:url('Images/Image2.jpg') no-repeat;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+
+#navbar {
+  width: 100%;
+	margin: auto;
+	text-align: center;
+  background-color: black;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin:0;
+	font-size: 16px;
+  text-align: left;
+}
+
+#navbar ul li {
+	display: inline-block;
+  pointer-events: auto;
+}
+
+#navbar ul li a{
+  color: #ccc;
+  display: block;
+  padding: 10px 35px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+#navbar ul li a:hover {
+	background-color: #333;
+  color: #099;
+  text-decoration: none;
+}
+
+/*Home page CSS*/
+#posts{
+  width: 75%;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-top: 3px;
+  line-height: 1.4em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background: rgba(0,0,0,0.5);
+}
+
+#header1{
+  color: white;
+  padding-top: 25px;
+  padding-left: 5px;
+  line-height: 0em;
+}
+
+#posts a{
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 600;
+  margin-left: -10px;
+}
+#posts a:hover{
+  text-decoration: none;
+  color: #099;
+  font-weight: 600;
+  margin-left: -10px;
+}
+
+/*Add post CSS*/
+#addpost{
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-bottom: 5px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-weight: 300;
+}
+#addpost input{
+  background: rgba(255,255,255,0.5);
+  margin-bottom: 7px;
+  min-width: 150px;
+  width: 30%;
+  max-width: 250px
+}
+
+#addpost textarea{
+  min-width: 300px;
+  width: 50%;
+  max-width: 450px;
+  height: 150px;
+  background: rgba(255,255,255,0.5);
+}
+
+#addpost h1{
+  color: white;
+  padding-top: 5px;
+}
+
+#addpost form{
+  line-height: normal;
+  margin-left: 5px;
+}
+#header1{
+  margin-left: 5px;
+}
+
+#indvBlogTitle{
+color: white;
+margin-left: 10px;
+padding-top: 25px;
+line-height: 0em;
+}
+
+#indvBlog{
+  width: 70%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  margin-left: 10px;
+  padding: 2.5px;
+  padding-top: 0px;
+}
+
+#buttons{
+  margin-left: 14.5px;
+  width: 70%;
+}
+
+#indvBlogAuther{
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 5px;
+  text-decoration-line: underline;
+}
+
+#indvBlogPost{
+  font-family: 'Century Gothic', sans-serif;
+  text-align: center;
+}
+
+#indvBlogTimestamp{
+font-size: 10px;
+text-align: right;
+font-weight: 200;
+margin: 2px;
+padding-bottom: 1px;
+}
+
+.column{
+  float:left;
+  width:50%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#editBtn{
+  margin-left: -4.5px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  text-decoration: none;
+  background: rgba(0,0,0,0.5);
+  color: #ccc;
+}
+
+#editBtn:hover{
+  background-color: #333;
+  color: #099;
+  text-decoration: none;
+}
+
+#deleteBtn{
+  float: right;
+  padding-bottom: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  text-decoration: none;
+  background: rgba(0,0,0,0.5);
+  color: #ccc;
+}
+#deleteBtn:hover{
+  background-color: #333;
+  color: #FF0000;
+  text-decoration: none;
+}
+
+/*Home page CSS*/
+#posts{
+  width: 100%;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-top: 3px;
+  line-height: 1.4em;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#posts p{
+  color:white;
+  line-height: 0em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 12px;
+}
+
+
+.errors{
+  background-color: rgba(255, 0, 0, 0.3);
+  text-align: left;
+}
+
+.errors li{
+  list-style-type: none;
+  text-align: left;
+  font-weight: 550;
+  text-decoration: none;
+}

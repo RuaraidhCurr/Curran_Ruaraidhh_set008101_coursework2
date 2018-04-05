@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BLOG</title>
+  <link rel= "stylesheet" href="/public/stylesheet.css"/>
+  <script type="text/JavaScript" src="/public/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="/public/java.js"></script>
+</head>
+
+<body>
+
+  <div id="navbar">
+    <ul>
+      <li>
+        <a href="http://localhost:5000">Blog Home</a></li>
+      <li>
+        <a href="/blog/post">Add Post</a></li>
+    </ul>
+  </div>
+
+  <div id="addpost">
+    <h1><%= title %></h1>
+      <form method="POST" action="/blog/edit/<%= post._id%>">
+        <label>Title</label><br>
+        <input type = "text" name="title" value="<%= post.title%>">
+        <br>
+        <label>Auther</label><br>
+        <input type = "text" name="auther" value="<%= post.auther%>">
+        <br>
+        <label>Blog post</label><br>
+        <textarea type = "text" name="post"><%= post.post %></textarea><br><br>
+        <input type = "submit" value="Submit Post"/>
+      </form>
+    </div>
+  </body>
+</html>
